@@ -1,6 +1,7 @@
 #title{
     color: white;
     background-color: #ff4c68;
+    
 }
 
 h1{
@@ -12,7 +13,7 @@ h1{
 }
 
 .container-fluid{
-    padding: 3% 15% 8%;
+    padding: 3% 15% 2%;
 }
 
 body{
@@ -25,7 +26,10 @@ body{
 }
 
 .navbar{
-    padding:0px 0px 100px;
+    color: white;
+    background-color: #ff4c68;
+    padding:0px 100px 0px 100px;
+    margin-bottom: 10%;
 }
 
 .nav-link{
@@ -164,4 +168,31 @@ h2{
 
 .fa-footer{
     padding: 1% 0.5%;
+}
+
+.active{
+    color: white !important;
+}
+.active.scrolled{
+    color: black !important;
+}
+.active2{
+    color: white !important;
+}
+.active2.scrolled{
+    color: black !important;
+}
+.active2.scrolled1{
+    color: white !important;
+
+}
+.active3{
+    color: white !important;
+}
+.active3.scrolled{
+    color: black !important;
+}
+.active3.scrolled1{
+    color: white !important;
+
 }
