@@ -6,5 +6,11 @@ void inc(int *x, int &y){
 int main(){
         int a=5,b=5;
         inc(&a,b);
+        int a=5,b=5;
+        inc(&a,b);
+        int a=5,b=5;
+        inc(&a,b);
+        int a=5,b=5;
+        inc(&a,b);
         cout<<a<<" "<<b;
 }
